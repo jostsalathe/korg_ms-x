@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ICL7660
+D Switched-Capacitor Voltage Converter, 1.5V to 10.0V operating supply voltage, 10mA with a 0.5V output drop, SO-8/DIP-8/µMAX-8/TO-99
+K monolithic CMOS switched capacitor voltage converter invert double divide multiply
+F http://datasheets.maximintegrated.com/en/ds/ICL7660-MAX1044.pdf
+$ENDCMP
+#
+$CMP ICL7660S
+D Switched-Capacitor Voltage Converter, 1.5V to 12.0V operating supply voltage, SOIC-8/DIP-8
+K monolithic CMOS switched capacitor voltage converter invert double divide multiply boost
+F https://www.renesas.com/us/en/document/dst/icl7660s-icl7660a-datasheet
+$ENDCMP
+#
+$CMP MAX1044
+D Switched-Capacitor Voltage Converter, 1.5V to 10.0V operating supply voltage, 10mA with a 0.5V output drop, SO-8/DIP-8/µMAX-8/TO-99
+K monolithic CMOS switched capacitor voltage converter invert double divide multiply boost
+F http://datasheets.maximintegrated.com/en/ds/ICL7660-MAX1044.pdf
+$ENDCMP
+#
+#End Doc Library

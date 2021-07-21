@@ -1,0 +1,401 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title "Korg MS-X"
+Date "2021-07-21"
+Rev "Rev.A"
+Comp "Jost Salathé"
+Comment1 "Schematics developed by Soul Machine (djsoulmachine.com)"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:AMS1117-5.0 U?
+U 1 1 60FC0679
+P 5250 4150
+AR Path="/60FC0679" Ref="U?"  Part="1" 
+AR Path="/60FA358D/60FC0679" Ref="U202"  Part="1" 
+F 0 "U202" H 5250 3900 50  0000 L CNN
+F 1 "AMS1117-5.0" H 5250 4301 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5250 4350 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 5350 3900 50  0001 C CNN
+	1    5250 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:L7805 U?
+U 1 1 60FC067F
+P 5250 3500
+AR Path="/60FC067F" Ref="U?"  Part="1" 
+AR Path="/60FA358D/60FC067F" Ref="U201"  Part="1" 
+F 0 "U201" H 5250 3250 50  0000 L CNN
+F 1 "L7805" H 5250 3651 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp" H 5275 3350 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 5250 3450 50  0001 C CNN
+	1    5250 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 60FC0685
+P 2850 1800
+AR Path="/60FC0685" Ref="J?"  Part="1" 
+AR Path="/60FA358D/60FC0685" Ref="J201"  Part="1" 
+F 0 "J201" H 2768 2017 50  0000 C CNN
+F 1 "PWR_IN" H 2768 1926 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2850 1800 50  0001 C CNN
+F 3 "~" H 2850 1800 50  0001 C CNN
+	1    2850 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60FC068B
+P 4850 4350
+AR Path="/60FC068B" Ref="C?"  Part="1" 
+AR Path="/60FA358D/60FC068B" Ref="C201"  Part="1" 
+F 0 "C201" H 4758 4304 50  0000 R CNN
+F 1 "100u" H 4758 4395 50  0000 R CNN
+F 2 "" H 4850 4350 50  0001 C CNN
+F 3 "~" H 4850 4350 50  0001 C CNN
+	1    4850 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60FC0691
+P 5650 4350
+AR Path="/60FC0691" Ref="C?"  Part="1" 
+AR Path="/60FA358D/60FC0691" Ref="C202"  Part="1" 
+F 0 "C202" H 5558 4304 50  0000 R CNN
+F 1 "10u" H 5558 4395 50  0000 R CNN
+F 2 "" H 5650 4350 50  0001 C CNN
+F 3 "~" H 5650 4350 50  0001 C CNN
+	1    5650 4350
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60FC0697
+P 4800 6250
+AR Path="/60FC0697" Ref="C?"  Part="1" 
+AR Path="/60FA358D/60FC0697" Ref="C204"  Part="1" 
+F 0 "C204" H 4708 6204 50  0000 R CNN
+F 1 "10u" H 4708 6295 50  0000 R CNN
+F 2 "" H 4800 6250 50  0001 C CNN
+F 3 "~" H 4800 6250 50  0001 C CNN
+	1    4800 6250
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60FC069D
+P 5900 6050
+AR Path="/60FC069D" Ref="C?"  Part="1" 
+AR Path="/60FA358D/60FC069D" Ref="C203"  Part="1" 
+F 0 "C203" H 5808 6096 50  0000 R CNN
+F 1 "10u" H 5808 6005 50  0000 R CNN
+F 2 "" H 5900 6050 50  0001 C CNN
+F 3 "~" H 5900 6050 50  0001 C CNN
+	1    5900 6050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60FC06A3
+P 5800 6250
+AR Path="/60FC06A3" Ref="C?"  Part="1" 
+AR Path="/60FA358D/60FC06A3" Ref="C205"  Part="1" 
+F 0 "C205" H 5708 6296 50  0000 R CNN
+F 1 "10u" H 5708 6205 50  0000 R CNN
+F 2 "" H 5800 6250 50  0001 C CNN
+F 3 "~" H 5800 6250 50  0001 C CNN
+	1    5800 6250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+9V #PWR?
+U 1 1 60FC06A9
+P 3150 1700
+AR Path="/60FC06A9" Ref="#PWR?"  Part="1" 
+AR Path="/60FA358D/60FC06A9" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 3150 1550 50  0001 C CNN
+F 1 "+9V" H 3165 1873 50  0000 C CNN
+F 2 "" H 3150 1700 50  0001 C CNN
+F 3 "" H 3150 1700 50  0001 C CNN
+	1    3150 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 60FC06AF
+P 3250 1800
+AR Path="/60FC06AF" Ref="#FLG?"  Part="1" 
+AR Path="/60FA358D/60FC06AF" Ref="#FLG0101"  Part="1" 
+F 0 "#FLG0101" H 3250 1875 50  0001 C CNN
+F 1 "PWR_FLAG" V 3250 1928 50  0000 L CNN
+F 2 "" H 3250 1800 50  0001 C CNN
+F 3 "~" H 3250 1800 50  0001 C CNN
+	1    3250 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 60FC06B5
+P 3250 1900
+AR Path="/60FC06B5" Ref="#FLG?"  Part="1" 
+AR Path="/60FA358D/60FC06B5" Ref="#FLG0102"  Part="1" 
+F 0 "#FLG0102" H 3250 1975 50  0001 C CNN
+F 1 "PWR_FLAG" V 3250 2028 50  0000 L CNN
+F 2 "" H 3250 1900 50  0001 C CNN
+F 3 "~" H 3250 1900 50  0001 C CNN
+	1    3250 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3050 1800 3150 1800
+Wire Wire Line
+	3150 1800 3150 1700
+Wire Wire Line
+	3150 1800 3250 1800
+Connection ~ 3150 1800
+$Comp
+L power:GND #PWR?
+U 1 1 60FC06BF
+P 3150 2000
+AR Path="/60FC06BF" Ref="#PWR?"  Part="1" 
+AR Path="/60FA358D/60FC06BF" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 3150 1750 50  0001 C CNN
+F 1 "GND" H 3155 1827 50  0000 C CNN
+F 2 "" H 3150 2000 50  0001 C CNN
+F 3 "" H 3150 2000 50  0001 C CNN
+	1    3150 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 1900 3150 1900
+Wire Wire Line
+	3150 1900 3150 2000
+Wire Wire Line
+	3150 1900 3250 1900
+Connection ~ 3150 1900
+$Comp
+L power:+9V #PWR?
+U 1 1 60FC06C9
+P 4850 3400
+AR Path="/60FC06C9" Ref="#PWR?"  Part="1" 
+AR Path="/60FA358D/60FC06C9" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 4850 3250 50  0001 C CNN
+F 1 "+9V" H 4865 3573 50  0000 C CNN
+F 2 "" H 4850 3400 50  0001 C CNN
+F 3 "" H 4850 3400 50  0001 C CNN
+	1    4850 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60FC06CF
+P 5250 4650
+AR Path="/60FC06CF" Ref="#PWR?"  Part="1" 
+AR Path="/60FA358D/60FC06CF" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 5250 4400 50  0001 C CNN
+F 1 "GND" H 5255 4477 50  0000 C CNN
+F 2 "" H 5250 4650 50  0001 C CNN
+F 3 "" H 5250 4650 50  0001 C CNN
+	1    5250 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60FC06D5
+P 5350 3900
+AR Path="/60FC06D5" Ref="#PWR?"  Part="1" 
+AR Path="/60FA358D/60FC06D5" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 5350 3650 50  0001 C CNN
+F 1 "GND" V 5355 3772 50  0000 R CNN
+F 2 "" H 5350 3900 50  0001 C CNN
+F 3 "" H 5350 3900 50  0001 C CNN
+	1    5350 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 3900 5250 3900
+Wire Wire Line
+	5250 3900 5250 3800
+Wire Wire Line
+	4850 3400 4850 3500
+Wire Wire Line
+	4850 3500 4950 3500
+Wire Wire Line
+	4850 3500 4850 4150
+Wire Wire Line
+	4850 4150 4950 4150
+Connection ~ 4850 3500
+Wire Wire Line
+	4850 4150 4850 4250
+Wire Wire Line
+	4850 4550 5250 4550
+Wire Wire Line
+	5250 4550 5250 4650
+Wire Wire Line
+	4850 4450 4850 4550
+Connection ~ 4850 4150
+Wire Wire Line
+	5250 4450 5250 4550
+Connection ~ 5250 4550
+Wire Wire Line
+	5550 3500 5650 3500
+Wire Wire Line
+	5650 3500 5650 4150
+Wire Wire Line
+	5550 4150 5650 4150
+Connection ~ 5650 4150
+Wire Wire Line
+	5650 4150 5650 4250
+Wire Wire Line
+	5650 4450 5650 4550
+Wire Wire Line
+	5650 4550 5250 4550
+$Comp
+L power:+5V #PWR?
+U 1 1 60FC06F0
+P 5650 3400
+AR Path="/60FC06F0" Ref="#PWR?"  Part="1" 
+AR Path="/60FA358D/60FC06F0" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 5650 3250 50  0001 C CNN
+F 1 "+5V" H 5665 3573 50  0000 C CNN
+F 2 "" H 5650 3400 50  0001 C CNN
+F 3 "" H 5650 3400 50  0001 C CNN
+	1    5650 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 3400 5650 3500
+Connection ~ 5650 3500
+$Comp
+L power:-9V #PWR0107
+U 1 1 60FC4968
+P 5800 5750
+F 0 "#PWR0107" H 5800 5625 50  0001 C CNN
+F 1 "-9V" H 5815 5923 50  0000 C CNN
+F 2 "" H 5800 5750 50  0001 C CNN
+F 3 "" H 5800 5750 50  0001 C CNN
+	1    5800 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 5850 5800 5850
+Wire Wire Line
+	5800 5850 5800 5750
+Wire Wire Line
+	5700 6050 5800 6050
+Wire Wire Line
+	5800 6050 5800 6150
+Wire Wire Line
+	5800 6450 5700 6450
+Wire Wire Line
+	5800 6350 5800 6450
+$Comp
+L power:GND #PWR?
+U 1 1 60FCB311
+P 5300 6750
+AR Path="/60FCB311" Ref="#PWR?"  Part="1" 
+AR Path="/60FA358D/60FCB311" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 5300 6500 50  0001 C CNN
+F 1 "GND" H 5305 6577 50  0000 C CNN
+F 2 "" H 5300 6750 50  0001 C CNN
+F 3 "" H 5300 6750 50  0001 C CNN
+	1    5300 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 6750 5300 6700
+Wire Wire Line
+	5800 5850 5900 5850
+Wire Wire Line
+	5900 5850 5900 5950
+Wire Wire Line
+	5900 6700 5300 6700
+Wire Wire Line
+	5900 6150 5900 6700
+Connection ~ 5800 5850
+Connection ~ 5300 6700
+Wire Wire Line
+	5300 6700 5300 6650
+Wire Wire Line
+	4900 5850 4800 5850
+Wire Wire Line
+	4800 5850 4800 5950
+Wire Wire Line
+	4800 6700 5300 6700
+Wire Wire Line
+	4800 6350 4800 6700
+$Comp
+L power:+9V #PWR?
+U 1 1 60FD0D9A
+P 4800 5750
+AR Path="/60FD0D9A" Ref="#PWR?"  Part="1" 
+AR Path="/60FA358D/60FD0D9A" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 4800 5600 50  0001 C CNN
+F 1 "+9V" H 4815 5923 50  0000 C CNN
+F 2 "" H 4800 5750 50  0001 C CNN
+F 3 "" H 4800 5750 50  0001 C CNN
+	1    4800 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 5750 4800 5850
+Connection ~ 4800 5850
+NoConn ~ 4900 6150
+NoConn ~ 4900 6350
+Text Notes 2750 1400 0    50   ~ 0
+9V Power input
+Wire Notes Line
+	2700 1300 3850 1300
+Wire Notes Line
+	3850 1300 3850 2300
+Wire Notes Line
+	3850 2300 2700 2300
+Wire Notes Line
+	2700 2300 2700 1300
+Text Notes 4550 5450 0    50   ~ 0
+-9V supply
+Wire Notes Line
+	4500 5350 6200 5350
+Wire Notes Line
+	6200 5350 6200 7050
+Wire Notes Line
+	6200 7050 4500 7050
+Wire Notes Line
+	4500 7050 4500 5350
+Text Notes 4750 3100 0    50   ~ 0
++5V supply (either\nTO-220 or SOT-223)
+Wire Notes Line
+	4700 2900 5800 2900
+Wire Notes Line
+	5800 2900 5800 4950
+Wire Notes Line
+	5800 4950 4700 4950
+Wire Notes Line
+	4700 4950 4700 2900
+$Comp
+L myLib:ICL7660S U203
+U 1 1 6100775B
+P 5300 6150
+F 0 "U203" H 5300 6717 50  0000 C CNN
+F 1 "ICL7660S" H 5300 6626 50  0000 C CNN
+F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias" H 5400 6050 50  0001 C CNN
+F 3 "https://www.renesas.com/us/en/document/dst/icl7660s-icl7660a-datasheet" H 5400 6050 50  0001 C CNN
+	1    5300 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 5950 4800 5950
+Connection ~ 4800 5950
+Wire Wire Line
+	4800 5950 4800 6150
+$EndSCHEMATC
