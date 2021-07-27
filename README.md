@@ -24,6 +24,7 @@ This project aims to take that design and develop a neat printed circuit board w
 | --- | --- | --- | --- |
 | ICL7660S | 1 | U203 | C7535 |
 | AMS1117-5.0 | 1 | U202 | C6187 |
-| LMV321 | (1) | U204 | C7972 |
-| LM324 | (1) | U301 | C71035 |
+| LMV321 | (2) | U204, U304 | C7972 |
+| LM324 | (1) | U301, U302 | C71035 |
+| 1N4148 | 4 | D301 | C2128 |
 |  |  |  |  |
