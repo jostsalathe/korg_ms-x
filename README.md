@@ -20,11 +20,12 @@ This project aims to take that design and develop a neat printed circuit board w
 
 ## Parts
 
-| Part | Count | Refs | JLCPCB # |
-| --- | --- | --- | --- |
-| ICL7660S | 1 | U203 | C7535 |
-| AMS1117-5.0 | 1 | U202 | C6187 |
-| LMV321 | (2) | U204, U304 | C7972 |
-| LM324 | (1) | U301, U302 | C71035 |
-| 1N4148 | 4 | D301 | C2128 |
+| Part        | Count | Refs                   | JLCPCB # |
+| ---         | ---   | ---                    | ---      |
+| ICL7660S    | 1     | U203                   | C7535    |
+| AMS1117-5.0 | 1     | U202                   | C6187    |
+| LMV321      | (2)   | U204, U304             | C7972    |
+| LM324       | (2)   | U301, U302             | C71035   |
+| 1N4148      | 4     | D301, D302, D401, D402 | C2128    |
+| CD4040BM/TR | 1     | U303                   | C725347  |
 |  |  |  |  |

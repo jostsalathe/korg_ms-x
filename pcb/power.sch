@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title "Korg MS-X"
 Date "2021-07-21"
 Rev "Rev.A"
@@ -198,7 +198,7 @@ Connection ~ 2900 2900
 Wire Wire Line
 	3200 1850 3300 1850
 Wire Wire Line
-	3300 1850 3300 2500
+	3300 1850 3300 1950
 Wire Wire Line
 	3200 2500 3300 2500
 Connection ~ 3300 2500
@@ -549,4 +549,17 @@ Wire Notes Line
 	5500 4700 3800 4700
 Wire Notes Line
 	3800 4700 3800 3000
+$Comp
+L Device:Net-Tie_2 NT201
+U 1 1 615088F3
+P 3300 2050
+F 0 "NT201" V 3254 2094 50  0000 L CNN
+F 1 "Net-Tie_2" V 3345 2094 50  0000 L CNN
+F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 3300 2050 50  0001 C CNN
+F 3 "~" H 3300 2050 50  0001 C CNN
+	1    3300 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3300 2150 3300 2500
 $EndSCHEMATC
