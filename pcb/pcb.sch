@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title "Korg MS-X"
 Date "2021-07-21"
 Rev "Rev.A"
@@ -48,7 +48,7 @@ TP9_CUTOFF
 Text Label 7950 4400 0    50   ~ 0
 TP4_VBIAS
 Text Label 7950 5100 0    50   ~ 0
-MONOTRON_PITCH_1
+MONOTRON_PITCH_2
 Text Label 2500 2200 2    50   ~ 0
 TP8_VCO
 Text Label 2500 2300 2    50   ~ 0
@@ -146,4 +146,25 @@ Wire Wire Line
 	3000 3200 2500 3200
 Wire Wire Line
 	8750 4200 7950 4200
+$Sheet
+S 1500 4100 1000 300 
+U 61042119
+F0 "adsr" 50
+F1 "adsr.sch" 50
+F2 "TP2_GATE" I L 1500 4250 50 
+F3 "TP9_CUTOFF" O R 2500 4300 50 
+F4 "TP1_PITCH" O R 2500 4200 50 
+$EndSheet
+Wire Wire Line
+	1000 4250 1500 4250
+Text Label 3000 4200 2    50   ~ 0
+TP1_PITCH
+Text Label 3000 4300 2    50   ~ 0
+TP9_CUTOFF
+Wire Wire Line
+	2500 4300 3000 4300
+Wire Wire Line
+	3000 4200 2500 4200
+Text Label 1000 4250 0    50   ~ 0
+TP2_GATE
 $EndSCHEMATC
