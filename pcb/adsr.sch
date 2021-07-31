@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -1646,4 +1646,6 @@ Wire Wire Line
 	7650 2250 8050 2250
 Wire Wire Line
 	9300 1100 9700 1100
+Text Notes 4300 1850 0    50   ~ 0
+TODO: individual GATE and TRIGGER?
 $EndSCHEMATC

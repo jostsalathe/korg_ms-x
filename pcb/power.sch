@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 2 6
 Title "Korg MS-X"
 Date "2021-07-21"
 Rev "Rev.A"
@@ -417,17 +417,6 @@ F 3 "" H 4050 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C201
-U 1 1 60FB9946
-P 2500 2700
-F 0 "C201" H 2412 2746 50  0000 R CNN
-F 1 "100u" H 2412 2655 50  0000 R CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder" H 2500 2700 50  0001 C CNN
-F 3 "~" H 2500 2700 50  0001 C CNN
-	1    2500 2700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C?
 U 1 1 60FBEB15
 P 4250 3700
@@ -562,4 +551,17 @@ F 3 "~" H 3300 2050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3300 2150 3300 2500
+$Comp
+L Device:C_Small C?
+U 1 1 61073B84
+P 2500 2700
+AR Path="/61073B84" Ref="C?"  Part="1" 
+AR Path="/60FA358D/61073B84" Ref="C201"  Part="1" 
+F 0 "C201" H 2408 2654 50  0000 R CNN
+F 1 "100u" H 2408 2745 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2500 2700 50  0001 C CNN
+F 3 "~" H 2500 2700 50  0001 C CNN
+	1    2500 2700
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC

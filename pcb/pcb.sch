@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title "Korg MS-X"
 Date "2021-07-21"
 Rev "Rev.A"
@@ -27,27 +27,27 @@ F1 "vco.sch" 50
 F2 "TP8_VCO" I R 2100 2200 50 
 F3 "RET_VCO" O R 2100 2300 50 
 $EndSheet
-Text Label 7950 4500 0    50   ~ 0
+Text Label 8000 4500 0    50   ~ 0
 TP5_VCC
-Text Label 7950 4300 0    50   ~ 0
+Text Label 8000 4300 0    50   ~ 0
 TP3_GND
-Text Label 7950 4700 0    50   ~ 0
+Text Label 8000 4700 0    50   ~ 0
 TP8_VCO
-Text Label 7950 4600 0    50   ~ 0
+Text Label 8000 4600 0    50   ~ 0
 TP7_LFO
-Text Label 7950 4900 0    50   ~ 0
+Text Label 8000 4900 0    50   ~ 0
 RET_VCO
-Text Label 7950 4100 0    50   ~ 0
+Text Label 8000 4100 0    50   ~ 0
 TP1_PITCH
-Text Label 7950 4200 0    50   ~ 0
+Text Label 8000 4200 0    50   ~ 0
 TP2_GATE
-Text Label 7950 5000 0    50   ~ 0
+Text Label 8000 5000 0    50   ~ 0
 MONOTRON_PITCH_1
-Text Label 7950 4800 0    50   ~ 0
+Text Label 8000 4800 0    50   ~ 0
 TP9_CUTOFF
-Text Label 7950 4400 0    50   ~ 0
+Text Label 8000 4400 0    50   ~ 0
 TP4_VBIAS
-Text Label 7950 5100 0    50   ~ 0
+Text Label 8000 5100 0    50   ~ 0
 MONOTRON_PITCH_2
 Text Label 2500 2200 2    50   ~ 0
 TP8_VCO
@@ -99,25 +99,25 @@ F 3 "~" H 8950 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8750 4100 7950 4100
+	8750 4100 8000 4100
 Wire Wire Line
-	7950 4300 8750 4300
+	8000 4300 8750 4300
 Wire Wire Line
-	8750 4400 7950 4400
+	8750 4400 8000 4400
 Wire Wire Line
-	7950 4500 8750 4500
+	8000 4500 8750 4500
 Wire Wire Line
-	8750 4600 7950 4600
+	8750 4600 8000 4600
 Wire Wire Line
-	7950 4700 8750 4700
+	8000 4700 8750 4700
 Wire Wire Line
-	8750 4800 7950 4800
+	8750 4800 8000 4800
 Wire Wire Line
-	7950 4900 8750 4900
+	8000 4900 8750 4900
 Wire Wire Line
-	8750 5000 7950 5000
+	8750 5000 8000 5000
 Wire Wire Line
-	7950 5100 8750 5100
+	8000 5100 8750 5100
 $Sheet
 S 1500 3100 1000 300 
 U 610426AE
@@ -145,7 +145,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 3200 2500 3200
 Wire Wire Line
-	8750 4200 7950 4200
+	8750 4200 8000 4200
 $Sheet
 S 1500 4100 1000 300 
 U 61042119
@@ -167,4 +167,10 @@ Wire Wire Line
 	3000 4200 2500 4200
 Text Label 1000 4250 0    50   ~ 0
 TP2_GATE
+$Sheet
+S 1500 5100 1000 300 
+U 610672B4
+F0 "cv_gate" 50
+F1 "cv_gate.sch" 50
+$EndSheet
 $EndSCHEMATC

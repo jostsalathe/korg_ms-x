@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -192,19 +192,6 @@ F 3 "" H 4100 1500 50  0001 C CNN
 $EndComp
 Text Label 3950 1100 0    50   ~ 0
 MCvco2
-$Comp
-L Device:CP_Small C303
-U 1 1 6106B921
-P 4100 1300
-AR Path="/60F8D8A8/6106B921" Ref="C303"  Part="1" 
-AR Path="/61041226/6106B921" Ref="C?"  Part="1" 
-F 0 "C303" H 4012 1346 50  0000 R CNN
-F 1 "100u" H 4012 1255 50  0000 R CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder" H 4100 1300 50  0001 C CNN
-F 3 "~" H 4100 1300 50  0001 C CNN
-	1    4100 1300
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	4100 1500 4100 1400
 Wire Wire Line
@@ -1498,4 +1485,18 @@ modPWM
 NoConn ~ 7500 1950
 Wire Wire Line
 	7100 1950 7500 1950
+$Comp
+L Device:C_Small C?
+U 1 1 61076D73
+P 4100 1300
+AR Path="/61076D73" Ref="C?"  Part="1" 
+AR Path="/60FA358D/61076D73" Ref="C?"  Part="1" 
+AR Path="/60F8D8A8/61076D73" Ref="C303"  Part="1" 
+F 0 "C303" H 4008 1254 50  0000 R CNN
+F 1 "100u" H 4008 1345 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4100 1300 50  0001 C CNN
+F 3 "~" H 4100 1300 50  0001 C CNN
+	1    4100 1300
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

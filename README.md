@@ -20,6 +20,9 @@ This project aims to take that design and develop a neat printed circuit board w
 
 ## Parts
 
+0805 chip resistors with 1% tolerance shall be used for relatively easy hand soldering.
+Most capacitors are cermaic 0805. 100uF (10V) and 47uF (6V3) use 1206 package instead.
+
 | Part        | Count | Refs                   | JLCPCB # |
 | ---         | ---   | ---                    | ---      |
 | ICL7660S    | 1     | U203                   | C7535    |
@@ -28,4 +31,5 @@ This project aims to take that design and develop a neat printed circuit board w
 | LM324       | (2)   | U301, U302             | C71035   |
 | 1N4148      | 4     | D301, D302, D401, D402 | C2128    |
 | CD4040BM/TR | 1     | U303                   | C725347  |
+| TL082       | 3     | U601, U602, U701       | C9385    |
 |  |  |  |  |
