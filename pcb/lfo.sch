@@ -3,12 +3,12 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Sheet 4 7
+Title "Korg MS-X"
+Date "2021-08-21"
+Rev "Rev.A"
+Comp "Jost Salathé"
+Comment1 "Schematics developed by Soul Machine (djsoulmachine.com)"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -778,7 +778,7 @@ L Connector_Generic:Conn_01x04 J401
 U 1 1 611916DB
 P 5700 5000
 F 0 "J401" H 5618 4575 50  0000 C CNN
-F 1 "Conn_01x04" H 5618 4666 50  0000 C CNN
+F 1 "LFO_SEL" H 5618 4666 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5700 5000 50  0001 C CNN
 F 3 "~" H 5700 5000 50  0001 C CNN
 	1    5700 5000
