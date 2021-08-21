@@ -693,46 +693,46 @@ VCOmute
 $Comp
 L Device:R_Small R303
 U 1 1 6109FC3B
-P 7200 1800
+P 5600 4550
 AR Path="/60F8D8A8/6109FC3B" Ref="R303"  Part="1" 
 AR Path="/61041226/6109FC3B" Ref="R?"  Part="1" 
-F 0 "R303" V 7004 1800 50  0000 C CNN
-F 1 "100k" V 7095 1800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 7200 1800 50  0001 C CNN
-F 3 "~" H 7200 1800 50  0001 C CNN
-	1    7200 1800
-	0    1    1    0   
+F 0 "R303" V 5404 4550 50  0000 C CNN
+F 1 "100k" V 5495 4550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 5600 4550 50  0001 C CNN
+F 3 "~" H 5600 4550 50  0001 C CNN
+	1    5600 4550
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small R304
 U 1 1 6109FC41
-P 7500 1800
+P 5300 4550
 AR Path="/60F8D8A8/6109FC41" Ref="R304"  Part="1" 
 AR Path="/61041226/6109FC41" Ref="R?"  Part="1" 
-F 0 "R304" V 7304 1800 50  0000 C CNN
-F 1 "100k" V 7395 1800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 7500 1800 50  0001 C CNN
-F 3 "~" H 7500 1800 50  0001 C CNN
-	1    7500 1800
-	0    1    1    0   
+F 0 "R304" V 5104 4550 50  0000 C CNN
+F 1 "100k" V 5195 4550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 5300 4550 50  0001 C CNN
+F 3 "~" H 5300 4550 50  0001 C CNN
+	1    5300 4550
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small R305
 U 1 1 6109FC47
-P 7800 1800
+P 5000 4550
 AR Path="/60F8D8A8/6109FC47" Ref="R305"  Part="1" 
 AR Path="/61041226/6109FC47" Ref="R?"  Part="1" 
-F 0 "R305" V 7604 1800 50  0000 C CNN
-F 1 "100k" V 7695 1800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 7800 1800 50  0001 C CNN
-F 3 "~" H 7800 1800 50  0001 C CNN
-	1    7800 1800
-	0    1    1    0   
+F 0 "R305" V 4804 4550 50  0000 C CNN
+F 1 "100k" V 4895 4550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 5000 4550 50  0001 C CNN
+F 3 "~" H 5000 4550 50  0001 C CNN
+	1    5000 4550
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7300 1800 7400 1800
+	5500 4550 5400 4550
 Wire Wire Line
-	7600 1800 7700 1800
+	5200 4550 5100 4550
 Wire Wire Line
 	7500 2050 7050 2050
 Wire Wire Line
@@ -743,12 +743,10 @@ Wire Wire Line
 	7100 1950 7100 1900
 Wire Wire Line
 	7100 1900 7000 1900
-Wire Wire Line
-	7100 1800 7000 1800
-Text Label 8300 1800 2    50   ~ 0
+Text Label 7500 1800 2    50   ~ 0
 VCOsquare
 Wire Wire Line
-	8300 1800 7900 1800
+	4800 4550 4900 4550
 Wire Wire Line
 	4800 1450 4900 1450
 Wire Wire Line
@@ -1097,11 +1095,8 @@ Wire Wire Line
 	4100 4650 4000 4650
 Wire Wire Line
 	4800 4550 4700 4550
-Text Label 5200 4550 2    50   ~ 0
+Text Label 6100 4550 2    50   ~ 0
 VCOsquare
-Wire Wire Line
-	5200 4550 4800 4550
-Connection ~ 4800 4550
 $Comp
 L Amplifier_Operational:LM321 U304
 U 1 1 612503D1
@@ -1499,4 +1494,9 @@ F 3 "~" H 4100 1300 50  0001 C CNN
 	1    4100 1300
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	7500 1800 7000 1800
+Wire Wire Line
+	5700 4550 6100 4550
+Connection ~ 4800 4550
 $EndSCHEMATC

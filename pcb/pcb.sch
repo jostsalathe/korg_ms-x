@@ -27,25 +27,25 @@ F1 "vco.sch" 50
 F2 "TP8_VCO" I L 1500 2200 50 
 F3 "RET_VCO" O R 2100 2300 50 
 $EndSheet
-Text Label 8000 4500 0    50   ~ 0
+Text Label 8000 4100 0    50   ~ 0
 TP5_VCC
-Text Label 8000 4300 0    50   ~ 0
+Text Label 8000 4200 0    50   ~ 0
 TP3_GND
-Text Label 8000 4700 0    50   ~ 0
+Text Label 8000 4300 0    50   ~ 0
 TP8_VCO
 Text Label 8000 4600 0    50   ~ 0
 TP7_LFO
-Text Label 8000 4900 0    50   ~ 0
+Text Label 8000 4400 0    50   ~ 0
 RETURN_VCO
-Text Label 8000 4100 0    50   ~ 0
+Text Label 8000 4700 0    50   ~ 0
 TP1_PITCH
-Text Label 8000 4200 0    50   ~ 0
+Text Label 8000 4800 0    50   ~ 0
 TP2_GATE
 Text Label 8000 5000 0    50   ~ 0
 MONOTRON_PITCH_1
-Text Label 8000 4800 0    50   ~ 0
+Text Label 8000 4900 0    50   ~ 0
 TP9_CUTOFF
-Text Label 8000 4400 0    50   ~ 0
+Text Label 8000 4500 0    50   ~ 0
 TP4_VBIAS
 Text Label 8000 5100 0    50   ~ 0
 MONOTRON_PITCH_2
@@ -86,23 +86,21 @@ TP5_VCC
 Wire Wire Line
 	2250 1450 2250 1150
 Wire Wire Line
-	2400 1050 2400 1350
+	8750 4700 8000 4700
 Wire Wire Line
-	8750 4100 8000 4100
+	8000 4200 8750 4200
 Wire Wire Line
-	8000 4300 8750 4300
+	8750 4500 8000 4500
 Wire Wire Line
-	8750 4400 8000 4400
-Wire Wire Line
-	8000 4500 8750 4500
+	8000 4100 8750 4100
 Wire Wire Line
 	8750 4600 8000 4600
 Wire Wire Line
-	8000 4700 8750 4700
+	8000 4300 8750 4300
 Wire Wire Line
-	8750 4800 8000 4800
+	8750 4900 8000 4900
 Wire Wire Line
-	8000 4900 8750 4900
+	8000 4400 8750 4400
 Wire Wire Line
 	8750 5000 8000 5000
 Wire Wire Line
@@ -134,7 +132,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 3200 2500 3200
 Wire Wire Line
-	8750 4200 8000 4200
+	8750 4800 8000 4800
 $Sheet
 S 1500 4100 1000 300 
 U 61042119
@@ -195,7 +193,6 @@ F0 "vca" 50
 F1 "vca.sch" 50
 F2 "AUDIO" I L 1500 6200 50 
 F3 "ADSR" I L 1500 6300 50 
-F4 "AUDIO_OUT" O R 2500 6250 50 
 $EndSheet
 Text Label 1000 4300 0    50   ~ 0
 ADSR
@@ -225,31 +222,68 @@ AUDIO_RESONANCE
 Wire Wire Line
 	700  6200 1500 6200
 $Comp
-L Connector_Generic:Conn_01x02 J102
-U 1 1 613DFBAA
-P 2900 6250
-F 0 "J102" H 2980 6242 50  0000 L CNN
-F 1 "AUDIO_OUT" H 2980 6151 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2900 6250 50  0001 C CNN
-F 3 "~" H 2900 6250 50  0001 C CNN
-	1    2900 6250
-	1    0    0    -1  
+L Mechanical:MountingHole_Pad H104
+U 1 1 6171499E
+P 3400 1150
+F 0 "H104" V 3354 1300 50  0000 L CNN
+F 1 "MountingHole_Pad" V 3445 1300 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3400 1150 50  0001 C CNN
+F 3 "~" H 3400 1150 50  0001 C CNN
+	1    3400 1150
+	-1   0    0    1   
 $EndComp
 $Comp
-L power:GNDA #PWR0103
-U 1 1 613E2730
-P 2600 6450
-F 0 "#PWR0103" H 2600 6200 50  0001 C CNN
-F 1 "GNDA" H 2605 6277 50  0000 C CNN
-F 2 "" H 2600 6450 50  0001 C CNN
-F 3 "" H 2600 6450 50  0001 C CNN
-	1    2600 6450
-	1    0    0    -1  
+L Mechanical:MountingHole_Pad H103
+U 1 1 6171695D
+P 3200 1150
+F 0 "H103" V 3154 1300 50  0000 L CNN
+F 1 "MountingHole_Pad" V 3245 1300 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3200 1150 50  0001 C CNN
+F 3 "~" H 3200 1150 50  0001 C CNN
+	1    3200 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H102
+U 1 1 61716E87
+P 3000 1150
+F 0 "H102" V 2954 1300 50  0000 L CNN
+F 1 "MountingHole_Pad" V 3045 1300 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3000 1150 50  0001 C CNN
+F 3 "~" H 3000 1150 50  0001 C CNN
+	1    3000 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H101
+U 1 1 6171722F
+P 2800 1150
+F 0 "H101" V 2754 1300 50  0000 L CNN
+F 1 "MountingHole_Pad" V 2845 1300 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2800 1150 50  0001 C CNN
+F 3 "~" H 2800 1150 50  0001 C CNN
+	1    2800 1150
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2600 6450 2600 6350
+	2400 950  2800 950 
 Wire Wire Line
-	2600 6350 2700 6350
+	2800 950  2800 1050
 Wire Wire Line
-	2700 6250 2500 6250
+	2400 950  2400 1350
+Wire Wire Line
+	2800 950  3000 950 
+Wire Wire Line
+	3000 950  3000 1050
+Connection ~ 2800 950 
+Wire Wire Line
+	3000 950  3200 950 
+Wire Wire Line
+	3200 950  3200 1050
+Connection ~ 3000 950 
+Wire Wire Line
+	3200 950  3400 950 
+Wire Wire Line
+	3400 950  3400 1050
+Connection ~ 3200 950 
 $EndSCHEMATC

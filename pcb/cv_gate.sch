@@ -205,10 +205,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 2700 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL082 U602
+L Amplifier_Operational:TL082 U601
 U 2 1 6108CE64
 P 2700 3500
-F 0 "U602" H 2800 3350 50  0000 C CNN
+F 0 "U601" H 2800 3350 50  0000 C CNN
 F 1 "TL082" H 2800 3650 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2700 3500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 2700 3500 50  0001 C CNN
@@ -415,10 +415,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 4100 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL082 U601
+L Amplifier_Operational:TL082 U602
 U 2 1 610D3847
 P 5600 2700
-F 0 "U601" H 5700 2550 50  0000 C CNN
+F 0 "U602" H 5700 2550 50  0000 C CNN
 F 1 "TL082" H 5700 2850 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5600 2700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 5600 2700 50  0001 C CNN
@@ -1146,4 +1146,6 @@ Wire Wire Line
 	7200 1200 7100 1200
 Wire Wire Line
 	6900 1200 6800 1200
+Text Label 3500 2500 3    50   ~ 0
+pitchSum
 $EndSCHEMATC

@@ -43,8 +43,6 @@ Text HLabel 1500 2600 0    50   Input ~ 0
 AUDIO
 Text HLabel 1500 2000 0    50   Input ~ 0
 ADSR
-Text HLabel 4750 2650 2    50   Output ~ 0
-AUDIO_OUT
 $Comp
 L Amplifier_Operational:TL082 U?
 U 3 1 6131044F
@@ -448,6 +446,28 @@ Wire Wire Line
 Wire Wire Line
 	2900 1500 2600 1500
 Connection ~ 2600 1500
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 61679668
+P 5300 2650
+AR Path="/61679668" Ref="J?"  Part="1" 
+AR Path="/61306D81/61679668" Ref="J701"  Part="1" 
+F 0 "J701" H 5380 2642 50  0000 L CNN
+F 1 "AUDIO_OUT" H 5380 2551 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5300 2650 50  0001 C CNN
+F 3 "~" H 5300 2650 50  0001 C CNN
+	1    5300 2650
+	1    0    0    -1  
+$EndComp
+Text Label 5000 2650 2    50   ~ 0
+audioOut
 Wire Wire Line
-	4750 2650 4650 2650
+	4650 2650 5100 2650
+Wire Wire Line
+	5100 2750 4800 2750
+Wire Wire Line
+	4800 2750 4800 2900
+Wire Wire Line
+	4800 2900 4500 2900
+Connection ~ 4500 2900
 $EndSCHEMATC

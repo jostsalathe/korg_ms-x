@@ -365,15 +365,15 @@ $EndComp
 $Comp
 L Amplifier_Operational:LM324 U?
 U 4 1 6111BD42
-P 3800 6000
+P 4250 6250
 AR Path="/60F8D8A8/6111BD42" Ref="U?"  Part="4" 
 AR Path="/61041226/6111BD42" Ref="U?"  Part="4" 
 AR Path="/610426AE/6111BD42" Ref="U402"  Part="4" 
-F 0 "U402" H 3800 6367 50  0000 C CNN
-F 1 "LM324" H 3800 6276 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3750 6100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3850 6200 50  0001 C CNN
-	4    3800 6000
+F 0 "U402" H 4250 6617 50  0000 C CNN
+F 1 "LM324" H 4250 6526 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4200 6350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 4300 6450 50  0001 C CNN
+	4    4250 6250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -766,9 +766,6 @@ Wire Wire Line
 	1000 4000 1000 2500
 Connection ~ 1000 4000
 Connection ~ 1000 2500
-NoConn ~ 3500 5900
-NoConn ~ 3500 6100
-NoConn ~ 4100 6000
 Text Label 2800 4000 3    50   ~ 0
 lfoinv
 Text Label 3200 3900 0    50   ~ 0
@@ -1107,4 +1104,49 @@ F 3 "~" H 4100 1300 50  0001 C CNN
 	1    4100 1300
 	-1   0    0    -1  
 $EndComp
+$Comp
+L power:+2V5 #PWR?
+U 1 1 61CF3577
+P 3550 6050
+AR Path="/60FA358D/61CF3577" Ref="#PWR?"  Part="1" 
+AR Path="/60F8D8A8/61CF3577" Ref="#PWR?"  Part="1" 
+AR Path="/61041226/61CF3577" Ref="#PWR?"  Part="1" 
+AR Path="/610426AE/61CF3577" Ref="#PWR0411"  Part="1" 
+F 0 "#PWR0411" H 3550 5900 50  0001 C CNN
+F 1 "+2V5" H 3565 6223 50  0000 C CNN
+F 2 "" H 3550 6050 50  0001 C CNN
+F 3 "" H 3550 6050 50  0001 C CNN
+	1    3550 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 6350 3850 6350
+Wire Wire Line
+	3850 6350 3850 6550
+Wire Wire Line
+	3850 6550 4650 6550
+Wire Wire Line
+	4650 6550 4650 6250
+Wire Wire Line
+	4650 6250 4550 6250
+Wire Wire Line
+	3550 6050 3550 6150
+Wire Wire Line
+	3850 6150 3950 6150
+$Comp
+L Device:R_Small R?
+U 1 1 61D0241D
+P 3750 6150
+AR Path="/60F8D8A8/61D0241D" Ref="R?"  Part="1" 
+AR Path="/61041226/61D0241D" Ref="R?"  Part="1" 
+AR Path="/610426AE/61D0241D" Ref="R421"  Part="1" 
+F 0 "R421" V 3554 6150 50  0000 C CNN
+F 1 "100k" V 3645 6150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 3750 6150 50  0001 C CNN
+F 3 "~" H 3750 6150 50  0001 C CNN
+	1    3750 6150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 6150 3650 6150
 $EndSCHEMATC
