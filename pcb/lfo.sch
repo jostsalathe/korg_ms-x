@@ -1149,4 +1149,9 @@ F 3 "~" H 3750 6150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3550 6150 3650 6150
+Text HLabel 8600 5500 2    50   Output ~ 0
+LFO_SIGNAL
+Wire Wire Line
+	8600 5500 8500 5500
+Connection ~ 8500 5500
 $EndSCHEMATC
