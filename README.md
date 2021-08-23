@@ -2,7 +2,6 @@
 
 An extreme MONOTRON mod by Soul Machine in form of an SMD PCB.
 
-
 ## Roots
 
 The schematics design and build instructions were published by Soul Machine on his project page
@@ -33,3 +32,13 @@ Most capacitors are cermaic 0805. 100uF (10V) and 47uF (6V3) use 1206 package in
 | CD4040BM/TR | 1     | U303                   | C725347  |
 | TL082       | 3     | U601, U602, U701       | C9385    |
 |  |  |  |  |
+
+## Pictures
+
+PCB front:
+
+![PCB front](pcb/front.jpg "PCB front")
+
+PCB back:
+
+![PCB back](pcb/back.jpg "PCB back")

@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 7
 Title "Korg MS-X"
-Date "2021-08-21"
-Rev "Rev.A"
+Date "2021-08-23"
+Rev "Rev. A"
 Comp "Jost Salathé"
 Comment1 "Schematics developed by Soul Machine (djsoulmachine.com)"
 Comment2 ""
@@ -112,22 +112,18 @@ Wire Wire Line
 $Comp
 L power:GNDA #PWR?
 U 1 1 61092446
-P 2500 1200
+P 2500 1250
 AR Path="/60F8D8A8/61092446" Ref="#PWR?"  Part="1" 
 AR Path="/61041226/61092446" Ref="#PWR?"  Part="1" 
 AR Path="/61042119/61092446" Ref="#PWR0504"  Part="1" 
-F 0 "#PWR0504" H 2500 950 50  0001 C CNN
-F 1 "GNDA" V 2500 1000 50  0000 C CNN
-F 2 "" H 2500 1200 50  0001 C CNN
-F 3 "" H 2500 1200 50  0001 C CNN
-	1    2500 1200
+F 0 "#PWR0504" H 2500 1000 50  0001 C CNN
+F 1 "GNDA" V 2500 1050 50  0000 C CNN
+F 2 "" H 2500 1250 50  0001 C CNN
+F 3 "" H 2500 1250 50  0001 C CNN
+	1    2500 1250
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2750 1300 2600 1300
-Wire Wire Line
-	3550 1300 3200 1300
-Text Label 3550 1300 2    50   ~ 0
+Text Label 3550 1250 2    50   ~ 0
 punch
 Wire Wire Line
 	4500 1150 4950 1150
@@ -177,7 +173,7 @@ F 3 "" H 2500 1950 50  0001 C CNN
 $EndComp
 Text Label 3550 2150 2    50   ~ 0
 modeCV
-Text Label 3550 1700 2    50   ~ 0
+Text Label 3550 1650 2    50   ~ 0
 lin_exp
 $Comp
 L Device:R_POT RV?
@@ -993,58 +989,28 @@ $EndComp
 $Comp
 L Switch:SW_SPST SW501
 U 1 1 611CC455
-P 2900 1200
-F 0 "SW501" H 3000 1250 50  0000 L CNN
-F 1 "SW_SPST" H 2850 1250 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2900 1200 50  0001 C CNN
-F 3 "~" H 2900 1200 50  0001 C CNN
-	1    2900 1200
+P 2900 1250
+F 0 "SW501" H 3000 1300 50  0000 L CNN
+F 1 "SW_SPST" H 2850 1300 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2900 1250 50  0001 C CNN
+F 3 "~" H 2900 1250 50  0001 C CNN
+	1    2900 1250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2700 1200 2600 1200
-Wire Wire Line
-	2600 1200 2600 1300
-Wire Wire Line
-	2600 1200 2500 1200
-Wire Wire Line
-	3100 1200 3200 1200
-Wire Wire Line
-	3200 1200 3200 1300
-Connection ~ 3200 1300
-Wire Wire Line
-	3200 1300 3050 1300
 $Comp
 L power:GNDA #PWR?
 U 1 1 61229D24
-P 2500 1600
+P 2500 1650
 AR Path="/60F8D8A8/61229D24" Ref="#PWR?"  Part="1" 
 AR Path="/61041226/61229D24" Ref="#PWR?"  Part="1" 
 AR Path="/61042119/61229D24" Ref="#PWR0506"  Part="1" 
-F 0 "#PWR0506" H 2500 1350 50  0001 C CNN
-F 1 "GNDA" V 2500 1400 50  0000 C CNN
-F 2 "" H 2500 1600 50  0001 C CNN
-F 3 "" H 2500 1600 50  0001 C CNN
-	1    2500 1600
+F 0 "#PWR0506" H 2500 1400 50  0001 C CNN
+F 1 "GNDA" V 2500 1450 50  0000 C CNN
+F 2 "" H 2500 1650 50  0001 C CNN
+F 3 "" H 2500 1650 50  0001 C CNN
+	1    2500 1650
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2750 1700 2600 1700
-Wire Wire Line
-	3550 1700 3200 1700
-Wire Wire Line
-	2700 1600 2600 1600
-Wire Wire Line
-	2600 1600 2600 1700
-Wire Wire Line
-	2600 1600 2500 1600
-Wire Wire Line
-	3100 1600 3200 1600
-Wire Wire Line
-	3200 1600 3200 1700
-Connection ~ 3200 1700
-Wire Wire Line
-	3200 1700 3050 1700
 Wire Wire Line
 	2700 2050 2600 2050
 Wire Wire Line
@@ -1108,27 +1074,14 @@ F 3 "~" H 5500 750 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP501
-U 1 1 61434261
-P 2900 1300
-F 0 "JP501" H 3000 1250 50  0000 L CNN
-F 1 "PUNCH_EN" H 2800 1250 50  0000 R CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2900 1300 50  0001 C CNN
-F 3 "~" H 2900 1300 50  0001 C CNN
-	1    2900 1300
-	1    0    0    -1  
-$EndComp
-Connection ~ 2600 1200
-Connection ~ 2600 1600
-$Comp
 L Switch:SW_SPST SW502
 U 1 1 6148BA76
-P 2900 1600
-F 0 "SW502" H 3000 1650 50  0000 L CNN
-F 1 "SW_SPST" H 2850 1650 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2900 1600 50  0001 C CNN
-F 3 "~" H 2900 1600 50  0001 C CNN
-	1    2900 1600
+P 2900 1650
+F 0 "SW502" H 3000 1700 50  0000 L CNN
+F 1 "SW_SPST" H 2850 1700 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2900 1650 50  0001 C CNN
+F 3 "~" H 2900 1650 50  0001 C CNN
+	1    2900 1650
 	1    0    0    -1  
 $EndComp
 Text Notes 1500 1400 0    50   ~ 0
@@ -1203,17 +1156,6 @@ Text Notes 1450 3050 0    50   ~ 0
 ADR times x0.01\nADR times x1\n1kR->GND
 Text Notes 1350 3050 2    50   ~ 0
 5V:\n0V:\ndefault:
-$Comp
-L Jumper:SolderJumper_2_Open JP502
-U 1 1 614C8A8E
-P 2900 1700
-F 0 "JP502" H 3000 1650 50  0000 L CNN
-F 1 "LINEAR_ENV" H 2800 1650 50  0000 R CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2900 1700 50  0001 C CNN
-F 3 "~" H 2900 1700 50  0001 C CNN
-	1    2900 1700
-	1    0    0    -1  
-$EndComp
 Text Notes 1200 3950 0    50   ~ 0
 5V peak output\n0V peak output\n10kR->5V/10uF->GND
 Text Notes 1100 3950 2    50   ~ 0
@@ -1623,8 +1565,6 @@ Wire Wire Line
 	7650 2250 8050 2250
 Wire Wire Line
 	9300 1100 9700 1100
-Text Notes 4300 1850 0    50   ~ 0
-TODO: individual GATE and TRIGGER?
 Text HLabel 9400 1600 2    50   Output ~ 0
 ADSR
 Wire Wire Line
@@ -1722,4 +1662,12 @@ Wire Wire Line
 	4850 1350 4850 1300
 Wire Wire Line
 	4850 1300 4750 1300
+Wire Wire Line
+	2500 1250 2700 1250
+Wire Wire Line
+	2500 1650 2700 1650
+Wire Wire Line
+	3100 1250 3550 1250
+Wire Wire Line
+	3100 1650 3550 1650
 $EndSCHEMATC

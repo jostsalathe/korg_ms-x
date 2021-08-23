@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
 Title "Korg MS-X"
-Date "2021-08-21"
-Rev "Rev.A"
+Date "2021-08-23"
+Rev "Rev. A"
 Comp "Jost Salathé"
 Comment1 "Schematics developed by Soul Machine (djsoulmachine.com)"
 Comment2 ""
@@ -33,21 +33,21 @@ Text Label 8000 4200 0    50   ~ 0
 TP3_GND
 Text Label 8000 4300 0    50   ~ 0
 TP8_VCO
-Text Label 8000 4600 0    50   ~ 0
+Text Label 8000 4500 0    50   ~ 0
 TP7_LFO
 Text Label 8000 4400 0    50   ~ 0
 RETURN_VCO
-Text Label 8000 4700 0    50   ~ 0
+Text Label 8000 4600 0    50   ~ 0
 TP1_PITCH
-Text Label 8000 4800 0    50   ~ 0
-TP2_GATE
-Text Label 8000 5000 0    50   ~ 0
-MONOTRON_PITCH_1
-Text Label 8000 4900 0    50   ~ 0
-TP9_CUTOFF
-Text Label 8000 4500 0    50   ~ 0
-TP4_VBIAS
 Text Label 8000 5100 0    50   ~ 0
+TP2_GATE
+Text Label 8000 4900 0    50   ~ 0
+MONOTRON_PITCH_1
+Text Label 8000 5200 0    50   ~ 0
+TP9_CUTOFF
+Text Label 8000 4700 0    50   ~ 0
+TP4_VBIAS
+Text Label 8000 5000 0    50   ~ 0
 MONOTRON_PITCH_2
 Text Label 1100 2200 0    50   ~ 0
 TP8_VCO
@@ -86,25 +86,25 @@ TP5_VCC
 Wire Wire Line
 	2250 1450 2250 1150
 Wire Wire Line
-	8750 4700 8000 4700
+	8750 4600 8000 4600
 Wire Wire Line
 	8000 4200 8750 4200
 Wire Wire Line
-	8750 4500 8000 4500
+	8750 4700 8000 4700
 Wire Wire Line
 	8000 4100 8750 4100
 Wire Wire Line
-	8750 4600 8000 4600
+	8750 4500 8000 4500
 Wire Wire Line
 	8000 4300 8750 4300
 Wire Wire Line
-	8750 4900 8000 4900
+	8750 5200 8000 5200
 Wire Wire Line
 	8000 4400 8750 4400
 Wire Wire Line
-	8750 5000 8000 5000
+	8750 4900 8000 4900
 Wire Wire Line
-	8000 5100 8750 5100
+	8000 5000 8750 5000
 $Sheet
 S 1500 3050 1000 400 
 U 610426AE
@@ -133,7 +133,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 3150 2500 3150
 Wire Wire Line
-	8750 4800 8000 4800
+	8750 5100 8000 5100
 $Sheet
 S 1500 4050 1000 400 
 U 61042119
@@ -215,10 +215,10 @@ F 3 "~" H 8950 4600 50  0001 C CNN
 	1    8950 4600
 	1    0    0    -1  
 $EndComp
-Text Label 8000 5200 0    50   ~ 0
+Text Label 8000 4800 0    50   ~ 0
 AUDIO_RESONANCE
 Wire Wire Line
-	8000 5200 8750 5200
+	8000 4800 8750 4800
 Text Label 700  6200 0    50   ~ 0
 AUDIO_RESONANCE
 Wire Wire Line
