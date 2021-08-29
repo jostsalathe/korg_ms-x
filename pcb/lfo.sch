@@ -5,11 +5,11 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
 Title "Korg MS-X"
-Date "2021-08-23"
+Date "2021-08-29"
 Rev "Rev. A"
 Comp "Jost Salathé"
 Comment1 "Schematics developed by Soul Machine (djsoulmachine.com)"
-Comment2 ""
+Comment2 "consulted by Heiner Büge"
 Comment3 ""
 Comment4 ""
 $EndDescr

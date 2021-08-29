@@ -5,11 +5,11 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 7
 Title "Korg MS-X"
-Date "2021-08-23"
+Date "2021-08-29"
 Rev "Rev. A"
 Comp "Jost Salathé"
 Comment1 "Schematics developed by Soul Machine (djsoulmachine.com)"
-Comment2 ""
+Comment2 "consulted by Heiner Büge"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -44,29 +44,29 @@ $EndComp
 $Comp
 L Amplifier_Operational:LM324 U301
 U 3 1 60FA3D06
-P 1900 2450
+P 5350 2350
 AR Path="/60F8D8A8/60FA3D06" Ref="U301"  Part="3" 
 AR Path="/61041226/60FA3D06" Ref="U?"  Part="3" 
-F 0 "U301" H 1900 2817 50  0000 C CNN
-F 1 "LM324" H 1900 2726 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1850 2550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 1950 2650 50  0001 C CNN
-F 4 "C71035" H 1900 2450 50  0001 C CNN "LCSC"
-	3    1900 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U301
-U 4 1 60FA503A
-P 5350 2350
-AR Path="/60F8D8A8/60FA503A" Ref="U301"  Part="4" 
-AR Path="/61041226/60FA503A" Ref="U?"  Part="4" 
 F 0 "U301" H 5350 2717 50  0000 C CNN
 F 1 "LM324" H 5350 2626 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5300 2450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5400 2550 50  0001 C CNN
 F 4 "C71035" H 5350 2350 50  0001 C CNN "LCSC"
-	4    5350 2350
+	3    5350 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U301
+U 4 1 60FA503A
+P 1900 2450
+AR Path="/60F8D8A8/60FA503A" Ref="U301"  Part="4" 
+AR Path="/61041226/60FA503A" Ref="U?"  Part="4" 
+F 0 "U301" H 1900 2817 50  0000 C CNN
+F 1 "LM324" H 1900 2726 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1850 2550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 1950 2650 50  0001 C CNN
+F 4 "C71035" H 1900 2450 50  0001 C CNN "LCSC"
+	4    1900 2450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -444,7 +444,7 @@ P 4750 2450
 AR Path="/60F8D8A8/6103D659" Ref="R308"  Part="1" 
 AR Path="/61041226/6103D659" Ref="R?"  Part="1" 
 F 0 "R308" V 4554 2450 50  0000 C CNN
-F 1 "50" V 4645 2450 50  0000 C CNN
+F 1 "47" V 4645 2450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4750 2450 50  0001 C CNN
 F 3 "~" H 4750 2450 50  0001 C CNN
 F 4 "C131893" H 4750 2450 50  0001 C CNN "LCSC"

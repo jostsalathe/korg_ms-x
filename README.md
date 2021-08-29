@@ -4,7 +4,7 @@ An extreme MONOTRON mod by Soul Machine in form of an SMD PCB.
 
 
 
-## Roots
+## credits
 
 The schematics design and build instructions were published by Soul Machine on his project page
 [Far Beyond Perception Instruments](https://www.djsoulmachine.com/farbeyondperception/msx.html)
@@ -13,12 +13,12 @@ and as
 
 He built it with a lot of perf board and freehand wiring.
 
+Also special thanks to Heiner Büge who convinced me to build this mod with him. He also brought a lot of knowledge about analog synthesizers into this project and I would **not** have been able to develop this project without him!
 
 
 ## Where this project takes over
 
-This project aims to take that design and develop a neat printed circuit board with SMD components where sensible so that it can be produced and to a large degree even be assembled by cheap manufacturers like [JLCPCB](jlcpcb.com) or [PCBWay](pcbway.com).
-
+This project aims to take the design of Soul Machine and develop a neat printed circuit board with SMD components where sensible so that it can be produced and to a large degree even be assembled by cheap manufacturers like [JLCPCB](jlcpcb.com) or [PCBWay](pcbway.com).
 
 
 ## Parts
@@ -48,7 +48,7 @@ Most capacitors are cermaic 0805. 100uF (10V) and 47uF (6V3) use 1206 package in
 | 10k         | 22    | R201, R202, R417, R501, R505-R507, R509, R510, R512, R513, R515, R516, R518, R519, R521, R522, R524, R604, R607, R608, R610 | C17414 |
 | 100k        | 43    | R301-R305, R307, R309-R312, R318, R324-R331, R401, R402, R404, R406-R413, R420, R421, R502, R602, R609, R612-R614, R616, R701-R703, R706 | ***C149504*** |
 | 33k         | 1     | R306                                                | C17633        |
-| 50          | 1     | R308                                                | ***C131893*** |
+| 47          | 1     | R308                                                | C17714        |
 | 5k6         | 2     | R313, R321                                          | C4382         |
 | 4k7         | 1     | R314                                                | C17673        |
 | 1M          | 4     | R315, R322, R403, R503                              | C17514        |
