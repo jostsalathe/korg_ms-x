@@ -1706,4 +1706,6 @@ Wire Wire Line
 	3100 1250 3550 1250
 Wire Wire Line
 	3100 1650 3550 1650
+Text Notes 4500 6800 1    100  Italic 20
+pull-up and pull-down resistors on CVs are optional\nand should only be populated if the corresponding\nRV is omitted to tie the CV input to a defined level.
 $EndSCHEMATC
